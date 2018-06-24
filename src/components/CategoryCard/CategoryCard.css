@@ -1,0 +1,13 @@
+.category-card{
+    min-height: 120px;
+    background-size: cover;
+    width: 120px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight:900;
+    display:flex;
+    user-select:none;
+    cursor:pointer;
+}

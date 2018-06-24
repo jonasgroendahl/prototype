@@ -1,0 +1,19 @@
+.topbar{
+    display:flex;
+    height:350px;
+    background-size: cover;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-transform: uppercase;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.topbar h1{
+    font-size: 3rem;
+    margin-left: 10px;
+    background: black;
+    padding: 5px 10px;
+}
