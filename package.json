@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "./",
   "dependencies": {
+    "@material-ui/core": "^1.2.3",
+    "@material-ui/icons": "^1.1.0",
     "dragscroll": "0.0.8",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",

@@ -1,0 +1,10 @@
+.bottom-drawer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-drawer-content > * {
+    margin: 5px 15px;
+    padding: 10px;
+}

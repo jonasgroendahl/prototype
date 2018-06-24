@@ -1,0 +1,15 @@
+.product-card{
+    max-width: 250px;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items:center;
+    background: #eee;
+    border-radius: 10px;
+    box-shadow: black 1px 1px 1px;
+    cursor:pointer;
+}
+
+.product-card img {
+    width: 100%;
+}
