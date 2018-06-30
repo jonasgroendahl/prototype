@@ -4,12 +4,27 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items:center;
-    background: #eee;
     border-radius: 10px;
-    box-shadow: black 1px 1px 1px;
     cursor:pointer;
 }
 
-.product-card img {
+.product-card > img {
+    height: 170px;
+    width:100%;
+}
+
+.product-card-imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: absolute;
+}
+
+.product-card h4 {
     width: 100%;
+    text-align: center;
+    background: #eee;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }

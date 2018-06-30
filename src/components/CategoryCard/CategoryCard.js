@@ -11,6 +11,7 @@ export default class extends Component {
         return (
             <div className="category-card"
                 onMouseDown={this.onMouseDown}
+                onClick={this.props.clicked}
                 style={{
                     backgroundImage: `url(${this.props.img})`
                 }} >
