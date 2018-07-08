@@ -1,0 +1,15 @@
+.frieslist{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:90vh;
+    padding-bottom:10px;
+}
+
+.frieslist > * img {
+   max-width: 200px;
+}
+
+.frieslist > * {
+    padding: 0 5px;
+}

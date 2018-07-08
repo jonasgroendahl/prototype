@@ -1,0 +1,15 @@
+.drink-list{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:90vh;
+    padding-bottom:10px;
+}
+
+.drink-list > * img {
+   max-width: 200px;
+}
+
+.drink-list > * {
+    padding: 0 5px;
+}

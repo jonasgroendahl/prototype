@@ -30,3 +30,29 @@
 .product-list > * {
     margin: 5px;
 }
+
+.container{
+    padding: 25px;
+}
+
+.featured-grid{
+    margin-top:10px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);  
+    grid-gap: 5px; 
+}
+
+.featured-grid div:nth-child(1){
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.featured-grid div:nth-child(3){
+    grid-row: span 2;
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    margin-top: 50px;
+}

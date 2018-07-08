@@ -8,6 +8,7 @@
     "@material-ui/icons": "^1.1.0",
     "dragscroll": "0.0.8",
     "react": "^16.4.1",
+    "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^16.4.1",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
@@ -19,9 +20,13 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "electron": "electron ."
+    "electron": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=src/assets/shopping-cart-icon.icns --prune=true --out=release-builds",
+    "package-win": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=win32 --arch=ia32 --icon=src/assets/shopping-cart-icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Demo\"",
+    "package-linux": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=linux --arch=x64 --icon=src/assets/shopping-cart-icon.png --prune=true --out=release-builds"
   },
   "devDependencies": {
-    "electron": "^2.0.3"
+    "electron": "^2.0.3",
+    "electron-packager": "^12.1.0"
   }
 }
